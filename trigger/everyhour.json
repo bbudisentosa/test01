@@ -1,0 +1,25 @@
+{
+	"name": "everyhour",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Pipeline 1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2023-04-27T02:12:00Z",
+				"endTime": "2023-04-28T02:12:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
